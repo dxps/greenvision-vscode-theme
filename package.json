@@ -1,0 +1,21 @@
+{
+    "name": "greenvision-theme",
+    "displayName": "GreenVision Theme",
+    "description": "A green and calm theme for VSCode and your eyes.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "GreenVision Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/GreenVision Theme-color-theme.json"
+            }
+        ]
+    }
+}
